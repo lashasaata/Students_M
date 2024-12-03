@@ -1,0 +1,17 @@
+{
+    "1": {
+        "name": "Aludauri Nika",
+        "roll_number": 1,
+        "grade": "B"
+    },
+    "2": {
+        "name": "Gedenidze Vaxo",
+        "roll_number": 2,
+        "grade": "C"
+    },
+    "3": {
+        "name": "Saatashvili Lasha",
+        "roll_number": 3,
+        "grade": "B"
+    }
+}
