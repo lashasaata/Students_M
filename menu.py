@@ -54,7 +54,7 @@ class Menu:
         grade = input("Enter the student's grade: ").strip().lower()
 
         while grade not in ("a", "b", "c", "d", "e", "f"):
-            grade = input('Student\'s grade must be one of these: ["A","B","C","D","E","F"]').strip().lower()
+            grade = input('Student\'s grade must be one of these ["A","B","C","D","E","F"]: ').strip().lower()
 
         self.services.add_student(first_name,last_name,grade.upper())
 

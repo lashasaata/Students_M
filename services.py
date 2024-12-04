@@ -17,7 +17,6 @@ class Services:
         try:
             with open(self.path(), mode="r", encoding="utf-8") as file:
                 data = json.load(file)
-                print(data)
             
             for id,s in data.items():
                 self.__students[id] = Student(s["name"], s["grade"], s["roll_number"])
